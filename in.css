@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Aref Ruqaa';
+}
+body{
+    background-image:url('inside3.jpg');
+}
+h1{
+    font-size: 30px;
+    color:rgb(90, 45, 13);
+    text-align: center;
+    margin:1rem 0 3rem;
+}
+.input_div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+.input{
+    width:45%;
+    border:none;
+    border-bottom: 2px solid rgb(163, 90, 38);
+    background: none;
+    padding:10px;
+    outline: none;
+    font-size: medium;
+    color: white;
+}
+.addbutton{
+    
+    border:none;
+    background: none;
+    cursor:pointer;
+}
+.addbutton i{
+    float:middle;
+    color: whitesmoke;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    margin-top:2rem;
+    align-items: center;
+}
+.item{
+    width: 50%;
+    background:rgba(189, 133, 94, 0.5);
+    margin:4px;
+    padding:10px;
+    
+}
+.item_input{
+    background:none;
+    outline:none;
+    border:none;
+    font-size:medium;
+    float: left;
+    text-align: center;
+}
+.editbutton{
+    border:none;
+    background:none;
+    cursor:pointer;
+    float: right;
+    margin-right: 20px;
+    color:whitesmoke
+   
+}
+.editbutton i{
+    color: whitesmoke;
+}
+.removebutton{
+    border:none;
+    background:none;
+    cursor:pointer;
+    float: right;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+.removebutton i{
+    color: whitesmoke;
+}
+.input.editbutton{
+    text-decoration: line-through;
+}
